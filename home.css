@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: midnightblue;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero p {
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: lightblue;
+    color: navy;
+    padding: 12px 20px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: white;
+    color: teal;
+}
+
+.welcome {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
