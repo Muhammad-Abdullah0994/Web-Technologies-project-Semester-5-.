@@ -1,11 +1,13 @@
-body {
+body 
+{
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: aliceblue;
     color: midnightblue;
 }
 
-header {
+header
+{
     background-color: navy;
     color: white;
     padding: 20px;
@@ -14,52 +16,61 @@ header {
     align-items: center;
 }
 
-header h2 {
+header h2 
+{
     color: gold;
 }
 
-nav a {
+nav a 
+{
     color: white;
     margin-left: 20px;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover 
+{
     color: gold;
 }
 
-.hero {
+.hero 
+{
     background-color: midnightblue;
     color: white;
     text-align: center;
     padding: 60px 20px;
 }
 
-.hero h1 {
+.hero h1 
+{
     font-size: 38px;
     margin-bottom: 15px;
 }
 
-.hero p {
+.hero p 
+{
     line-height: 1.6;
     color: lightgray;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.services {
+.services 
+{
     padding: 50px 20px;
     text-align: center;
 }
 
-.services h2 {
+.services h2 
+{
     color: navy;
     font-size: 28px;
     margin-bottom: 30px;
 }
 
-.service-container {
+.service-container 
+{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -68,7 +79,8 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.service-card {
+.service-card 
+{
     background-color: white;
     width: 300px;
     padding: 30px 20px;
@@ -77,20 +89,24 @@ nav a:hover {
     text-align: left;
 }
 
-.service-card h3 {
+.service-card h3 
+{
     color: navy;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-.service-card p {
+.service-card p 
+{
     line-height: 1.6;
     color: darkblue;
     font-size: 14px;
     margin-bottom: 20px;
 }
 
-.service-card a {
+.service-card a 
+
+{
     display: inline-block;
     background-color: skyblue;
     color: navy;
@@ -100,12 +116,14 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.service-card a:hover {
+.service-card a:hover 
+{
     background-color: navy;
     color: white;
 }
 
-footer {
+footer 
+{
     background-color: navy;
     color: white;
     text-align: center;
