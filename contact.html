@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassBridge - Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <header>
+        <h2>ClassBridge</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="media.html">Media and Info</a>
+            <a href="register.html">Register</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Contact Us</h1>
+            <p>Get in touch with the ClassBridge team for inquiries, support, or guidance[cite: 17].</p>
+        </section>
+
+        <section class="contact-container">
+            <!-- Contact Form Box -->
+            <div class="form-box">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div class="field-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+                <!-- Small interactive feature feedback text -->
+                <p id="formFeedback" class="feedback-text"></p>
+            </div>
+
+            <!-- About Project Box -->
+            <div class="about-box">
+                <h2>About ClassBridge</h2>
+                <p>
+                    ClassBridge is an interactive e-learning platform dedicated to providing 
+                    accessible academic resources, structured lesson tracking, and collaborative student spaces.
+                </p>
+                <div class="info-item">
+                    <strong>Location:</strong> Kasur / Lahore, Pakistan
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> support@classbridge.edu
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ClassBridge | Learn. Share. Grow.</p>
+    </footer>
+
+    <!-- Interactive JS script -->
+    <script src="contact.js"></script>
+</body>
+</html>

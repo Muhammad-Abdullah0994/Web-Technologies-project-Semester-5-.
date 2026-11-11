@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: midnightblue;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: gold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.hero {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: lightgray;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-box, .about-box {
+    background-color: white;
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+.form-box h2, .about-box h2 {
+    color: navy;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.field-group {
+    margin-bottom: 15px;
+}
+
+.field-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: midnightblue;
+}
+
+.field-group input, .field-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.btn-submit {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: midnightblue;
+}
+
+.feedback-text {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+.about-box p {
+    line-height: 1.6;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+    color: midnightblue;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
