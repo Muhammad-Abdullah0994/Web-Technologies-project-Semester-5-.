@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: midnightblue;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: gold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.hero {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    line-height: 1.6;
+    color: lightgray;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: navy;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+.service-card h3 {
+    color: navy;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    line-height: 1.6;
+    color: darkblue;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    display: inline-block;
+    background-color: skyblue;
+    color: navy;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.service-card a:hover {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
